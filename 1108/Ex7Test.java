@@ -276,7 +276,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_6(){
 		Ex7 ex7 = new Ex7();
 		short x = 3;
@@ -284,7 +284,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_7(){
 		Ex7 ex7 = new Ex7();
 		short x = -3;
@@ -292,7 +292,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_8(){
 		Ex7 ex7 = new Ex7();
 		short x = 32767;
@@ -300,7 +300,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_9(){
 		Ex7 ex7 = new Ex7();
 		short x = -32768;
@@ -308,7 +308,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_10(){
 		Ex7 ex7 = new Ex7();
 		short x = 0;
@@ -316,7 +316,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_11(){
 		Ex7 ex7 = new Ex7();
 		int x = 3;
@@ -324,7 +324,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_12(){
 		Ex7 ex7 = new Ex7();
 		int x = -3;
@@ -332,7 +332,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_13(){
 		Ex7 ex7 = new Ex7();
 		int x = 2147483647;
@@ -340,7 +340,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_14(){
 		Ex7 ex7 = new Ex7();
 		int x = -2147483648;
@@ -348,7 +348,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_15(){
 		Ex7 ex7 = new Ex7();
 		int x = 0;
@@ -356,7 +356,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_16(){
 		Ex7 ex7 = new Ex7();
 		long x = 3;
@@ -364,7 +364,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_17(){
 		Ex7 ex7 = new Ex7();
 		long x = -3;
@@ -372,7 +372,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_18(){
 		Ex7 ex7 = new Ex7();
 		long x = 9223372036854775807L;
@@ -380,7 +380,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_19(){
 		Ex7 ex7 = new Ex7();
 		long x = -9223372036854775808L;
@@ -388,7 +388,7 @@ public class Ex7Test {
 		String actual = ex7.ex7_3(x);
 		assertThat(actual, is(expected));
 	}
-	@Ignore
+	@Test
 	public void ex7_3_20(){
 		Ex7 ex7 = new Ex7();
 		long x = 0;
