@@ -47,28 +47,24 @@ class Ex7{
 	}
 
 	public String ex7_3(byte x){
-    String ret = String.format("8%s", x);
-	return ret;
+    int i = Byte.toUnsignedInt(x);
+   	String tmp = String.format("%8s", Integer.toBinaryString(i)).replace(' ', '0');
+	return tmp;
 	}
 
 	public String ex7_3(short x){
-		
-		String ret = "";
-		
-		return ret;
+    int i = Short.toUnsignedInt(x);
+   	String tmp = String.format("%16s", Integer.toBinaryString(i)).replace(' ', '0');
+	return tmp;
 	}
 
 	public String ex7_3(int x){
-		
-		String ret = "";
-		
-		return ret;
+   	String tmp = String.format("%32s", Integer.toBinaryString(x)).replace(' ', '0');
+	return tmp;
 	}
 
 	public String ex7_3(long x){
-		
-		String ret = "";
-		
-		return ret;
+   	String tmp = String.format("%64s", Long.toBinaryString(x)).replace(' ', '0');
+	return tmp;
 	}
 }
